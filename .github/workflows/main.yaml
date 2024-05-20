@@ -3,7 +3,7 @@ name: Print Names
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   print-names:
