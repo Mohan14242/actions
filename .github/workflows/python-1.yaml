@@ -3,10 +3,10 @@ name: Build Python Package
 on:
   push:
     branches:
-      - main  # Adjust this to the branch you want to trigger the workflow
+      - master # Adjust this to the branch you want to trigger the workflow
   pull_request:
     branches:
-      - main  # Adjust this to the branch you want to trigger the workflow
+      - master  # Adjust this to the branch you want to trigger the workflow
 
 jobs:
   build:
