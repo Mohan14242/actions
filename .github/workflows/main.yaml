@@ -1,0 +1,14 @@
+name: Print Names
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  print-names:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print Name
+        run: echo "John Doe"
